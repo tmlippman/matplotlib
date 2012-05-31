@@ -65,7 +65,7 @@ basedir = {
     # people to :
     #   make -f make.osx fetch deps mpl_build mpl_install
 
-    'darwin' : [],
+    'darwin' : ['/usr/local'],
 
     'freebsd4' : ['/usr/local', '/usr'],
     'freebsd5' : ['/usr/local', '/usr'],
